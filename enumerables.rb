@@ -17,6 +17,7 @@ def get_names(spicy_foods)
     food[:name]
   end
 end
+binding.pry
 
 # given an array of spicy foods, **return an array of hashes** 
 # where the heat level of the food is greater than 5
@@ -79,3 +80,6 @@ def average_heat_level(spicy_foods)
   end
   total_heat_level/spicy_foods.length
 end
+
+
+
